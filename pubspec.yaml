@@ -1,0 +1,33 @@
+name: my_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pedometer: ^4.0.2
+  permission_handler: ^11.0.1
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.1.2
+  intl: ^0.19.0
+  fl_chart: ^0.66.0
+  geolocator: ^14.0.2
+  supabase_flutter: ^2.14.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+#eolocator: ^10.0.0
